@@ -33,7 +33,7 @@ header{
     gap: .5rem;
 }
 .nav-title span{
-    color: #f83b7a;
+    color: rgb(255, 66, 165);
 }
 .nav-title h4{
     font-size: 45px;
@@ -55,7 +55,14 @@ header{
     padding: 18px 24px;
 }
 .nav-follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
     background-color: rgba(11, 2, 35, 0.1);
+}
+.nav-follow img{
+    width: 30px;
 }
 .nav-content a{
     text-decoration: none;
