@@ -24,7 +24,16 @@
     border-radius: 1.5rem;
     font-size: 1.3rem;
 }
-
+h3{
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1.12rem;
+    margin: 1rem 0;
+    color:rgb(83, 76, 100);
+}
 /*  nav section */
 header{
     margin: 3rem 0;
@@ -107,7 +116,9 @@ nav{
     margin: .5rem 0;
     font-size: 5rem;
     font-weight: 600;
-    color: rgb(255, 49, 83); 
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .banner-title a{
     text-decoration: none;
@@ -131,3 +142,31 @@ nav{
 }
 
 /* banner section end */
+
+/* we are gamer section start */
+.gamer-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.gamer-content{
+    text-align: right;
+}
+.gamer-content h3{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.gamer-content h6{
+    color: rgb(83, 76, 100);
+    font-size: 32px;
+    font-weight: 400;
+}
+.gamer-content h5{
+    color: rgb(83, 76, 100);
+    font-size: 32px;
+    font-weight: 700;
+}
+/* we are gamer section end */
