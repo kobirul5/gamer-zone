@@ -149,7 +149,7 @@ nav{
     width: 90%;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center; 
 }
 .gamer-content{
     text-align: right;
@@ -170,3 +170,36 @@ nav{
     font-weight: 700;
 }
 /* we are gamer section end */
+.video{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#funny-video{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.video-content{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+}
+.video-img img {
+    width: 300px;
+}
+.video-img p{
+    width: 300px;
+}
