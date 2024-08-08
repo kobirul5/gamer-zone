@@ -203,3 +203,69 @@ nav{
 .video-img p{
     width: 300px;
 }
+/* Play Instantly, No Downloads No Installs. */
+            /* paly 1 */
+.play-content{
+    color: rgb(11, 2, 35);
+    text-align: right;
+}
+#play-instant{
+    color: rgb(255, 66, 165);
+}
+.play-container{
+    width: 90%;
+    margin: 4rem auto;
+    justify-content: end;
+    align-items: center;
+    gap: 265px;
+}
+.play-content-img{
+    
+}
+.play-img-1{
+    width: 600px;
+}
+.play-img-2{
+    width: 280px;
+    margin-top: -285px;
+    margin-left: -145px;
+}
+         /* paly 2 */
+                    /* paly 1 */
+.play2-content{
+    color: rgb(11, 2, 35);
+}
+#play2-instant{
+    color: rgb(255, 66, 165);
+}
+.play2-container{
+    width: 90%;
+    margin: 4rem auto;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 200px;
+}
+.play2-content-img{
+    
+}
+.play2-img-1{
+    width: 600px;
+}
+.play2-img-2{
+    width: 280px;
+    margin-top: -285px;
+    padding-left: 380px;
+}
+
+/* end of play section */
+.careers{
+    background: rgb(255, 66, 165);
+}
+.career-img{
+    width: 60%;
+}
+.career-img img{
+
+    
+}
