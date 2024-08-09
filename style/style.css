@@ -262,11 +262,41 @@ nav{
 .careers{
     background: rgb(255, 66, 165);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/Group\ 65.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
-.career-img{
-    width: 60%;
+.careers h3{
+    color: white;
 }
-.careers-content{ 
+.careers p{
+    color: white;
+}
+.careers-content{
+    margin: 0 auto;
+    width: 90%;
+    padding: 120px 0;
+
+}
+.careers-description{
+    width: 40%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list-2{
+    text-align: end;
+}
+.career-btn{
+    background-color: white;
+    color: rgb(255, 66, 165);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Apps */
@@ -322,7 +352,6 @@ footer{
     font-weight: 700;
 }
 .footer-container{
-    border: 2px solid rgb(255, 66, 165);
     width: 814px;
     height: 396px;
     flex-direction: column;
