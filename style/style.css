@@ -299,3 +299,71 @@ nav{
     color: rgb(11, 2, 35);
     font-size: 20px;
 }
+/* footer section start */
+footer{
+    margin: 5rem auto 0;
+    padding: 120px;
+    background-color: rgb(11, 2, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.footer-icon span{
+    color: rgb(255, 66, 165);
+}
+.footer-icon h4{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-container{
+    border: 2px solid rgb(255, 66, 165);
+    width: 814px;
+    height: 396px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-games{
+    margin-top: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+
+}
+.footer-policy{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+}
+.footer-policy p{
+    color: rgba(255, 255, 255, 0.6);;
+}
+.copy-right p{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 16px;
+    font-weight: 500px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer-icon img{
+    margin-top: 60px;
+    width: 40px;
+}
