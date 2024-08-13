@@ -36,7 +36,11 @@ p{
 }
 /*  nav section */
 header{
-    margin: 3rem 0;
+    margin: 0 auto;
+}
+.nav-shadow{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.11);
+    padding: 2rem 0;
 }
 nav{
     margin: 0 auto;
@@ -46,6 +50,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .nav-title{
     display: flex;
@@ -82,15 +87,14 @@ nav{
     gap: .3rem;
     background-color: rgba(11, 2, 35, 0.1);
 }
-.nav-follow img{
-    width: 30px;
-}
+
 .nav-content a{
     text-decoration: none;
     color: rgb(60, 53, 79);
     font-size: 18px;
     font-weight: 500;   
 }
+
 /* banner section star */
 .header-bg{
     background-image: url(../images/Group\ 14.png);
@@ -144,6 +148,9 @@ nav{
 /* banner section end */
 
 /* we are gamer section start */
+.game-main{
+    background-image: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+}
 .gamer-container{
     margin: 0 auto;
     width: 90%;
@@ -197,11 +204,44 @@ nav{
     gap: 1rem;
     text-align: left;
 }
+.video-img{
+    position: relative;
+}
 .video-img img {
     width: 300px;
 }
 .video-img p{
     width: 300px;
+}
+
+.watch-now{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    display: none;
+}
+.watch-now i{
+    font-size: 30px;
+}
+.watch-now h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 66, 165);
+}
+.video-img img:hover+ .watch-now{
+    display: block;
+}
+
+.watch-now:hover{
+    display: block;
+}
+.watch-now:hover+ .video-content img{
+    display: block;
+    filter: brightness(50%);
+}
+.video-img img:hover{
+    filter: brightness(50%);
 }
 /* Play Instantly, No Downloads No Installs. */
             /* paly 1 */
@@ -220,15 +260,16 @@ nav{
     gap: 265px;
 }
 .play-content-img{
-    
+    position: relative;
 }
 .play-img-1{
     width: 600px;
 }
 .play-img-2{
     width: 280px;
-    margin-top: -285px;
-    margin-left: -145px;
+    position: absolute;
+    bottom: -60px;
+    left: -70px;
 }
          /* paly 2 */
                     /* paly 1 */
@@ -240,26 +281,27 @@ nav{
 }
 .play2-container{
     width: 90%;
-    margin: 4rem auto;
+    margin: 8rem auto;
     flex-direction: row-reverse;
     justify-content: start;
     align-items: center;
     gap: 200px;
 }
 .play2-content-img{
-    
+    position: relative;
 }
 .play2-img-1{
     width: 600px;
 }
 .play2-img-2{
-    width: 280px;
-    margin-top: -285px;
-    padding-left: 380px;
+    position: absolute;
+    right: -40px;
+    bottom: -70px;
 }
 
 /* end of play section */
 .careers{
+    margin-top: 8rem;
     background: rgb(255, 66, 165);
     display: flex;
     justify-content: space-between;
@@ -303,36 +345,32 @@ nav{
 .apps-container{
     margin: 5rem auto;
     width: 90%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
+
 
 }
 .apps-content{
+    padding: 1rem;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+    flex-grow: 1;
     color: rgb(11, 2, 35);
     font-size: 20px;
+
+}
+.apps-content:hover{
+    outline: 2px solid rgb(255, 66, 165);
+    border-radius: 200px;
 }
 
-.apps-container2{
-    margin: 5rem auto;
-    width: 90%;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-.apps-content2{
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-    color: rgb(11, 2, 35);
-    font-size: 20px;
-}
 /* footer section start */
 footer{
     margin: 5rem auto 0;
-    padding: 120px;
+    padding: 80px;
     background-color: rgb(11, 2, 35);
     display: flex;
     justify-content: center;
@@ -392,7 +430,7 @@ footer{
     align-items: center;
     gap: 40px;
 }
-.footer-icon img{
+.social-icon img{
     margin-top: 60px;
     width: 40px;
 }

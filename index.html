@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0301225de3.js" crossorigin="anonymous"></script>
     <title>Gamer-Zone</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile-respnsive.css">
 </head>
 <body class="work-sans-font">
     <header>
         <!-- nav section start  -->
+       <section class="nav-shadow">
         <nav class="nav-container">
             <div class="nav-title">
                 <img src="images/Frame.png" alt="">
@@ -20,11 +23,13 @@
                     <li><a href="">Developers</a></li>
                     <li class="nav-follow">
                         <a href="">Follow Us On</a>
-                        <img src="images/tik-tok.png" alt="">
+                        <span class="youtube"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></span>
+                        <span><i class="fa-brands fa-tiktok" style="color: #000000;"></i></span>
                     </li>
                 </ul>
             </div>
         </nav>
+       </section>
         <!-- nav section end -->
          <!-- banner section start -->
           <section class="header-bg">
@@ -32,11 +37,13 @@
                 <div class="banner-title">
                     <h3>PLAY LIKE THE</h3>
                     <h1>G.O.A.T.</h1>
-                    <a href="">1-click instant play</a><br>
-                    <a href="">No download</a>
-                    <p>1000s of supported online games</p>
-                    <button class="primary-btn">SIGN IN</button>
+                    <a href=""><i class="fa-regular fa-circle-play" style="color: #ff42a5;"></i> 1-click instant play</a><br>
+                    <a href=""><i class="fa-solid fa-download" style="color: #ff42a5;"></i> No download</a>
+                    <p><i class="fa-solid fa-user-group" style="color: #0b0223;"></i> 1000s of supported online games</p>
+                    <div class="banner-btn">
+                        <button class="primary-btn">SIGN IN</button>
                     <button class="primary-btn rogue">GO ROGUE</button>
+                    </div>
                 </div>
                 <div class="banner-img">
                     <img src="images/Group 18.png" alt="">
@@ -47,18 +54,20 @@
     </header>
     <main>
            <!-- we are gamer section start -->
-        <section class="gamer-container">
-            <div class="gamer-img">
-                <img id="cartoon-img" src="images/pngwing 4.png" alt="">
-            </div>
-            <div class="gamer-content">
-                 <h3>We are gamer</h3>
-                 <p>An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.</p>
-                 <button class="primary-btn">KNOW MORE</button>
-                 <h6>Our purpose</h6>
-                 <h5>"unleash the gamer in everyone</h5>
-            </div>
-        </section>
+            <section class="game-main">
+                <div class="gamer-container">
+                    <div class="gamer-img">
+                        <img id="cartoon-img" src="images/pngwing 4.png" alt="">
+                    </div>
+                    <div class="gamer-content">
+                         <h3>We are gamer</h3>
+                         <p>An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.</p>
+                         <button class="primary-btn">KNOW MORE</button>
+                         <h6>Our purpose</h6>
+                         <h5>"unleash the gamer in everyone</h5>
+                    </div>
+                </div>
+            </section>
            <!-- we are gamer section end -->
             <!-- online funny videos section start -->
              <section class="video">
@@ -71,18 +80,35 @@
                     <div class="video-content">
                         <div class="video-img">
                             <img src="images/Rectangle 4.png" alt="">
+                            <div class="watch-now">
+                                <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+                                <h4>Watch now</h4>
+                            </div>
                             <p>No Download. No Installs. Play games Instantly on Gamer.</p>
+
                         </div>
                         <div class="video-img">
                             <img src="images/Rectangle 5.png" alt="">
+                            <div class="watch-now">
+                                <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+                                <h4>Watch now</h4>
+                            </div>
                             <p>Did you score? #unblockedgames #school</p>
                         </div>
                         <div class="video-img">
                             <img src="images/Rectangle 7.png" alt="">
+                            <div class="watch-now">
+                                <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+                                <h4>Watch now</h4>
+                            </div>
                             <p>Breaking game records like OG</p>
                         </div>
                         <div class="video-img">
                             <img src="images/Rectangle 6.png" alt="">
+                            <div class="watch-now">
+                                <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+                                <h4>Watch now</h4>
+                            </div>
                             <p>Busted gaming on school laptop, but you are still lit.</p>
                         </div>
                     </div>
@@ -115,7 +141,7 @@
              <!-- Play Instantly, No Downloads No Installs end -->
 
              <!-- careers section start -->
-            <section class="careers">
+            <section class="careers hide">
                     <div class="careers-content">
                         <div class="careers-description">
 
@@ -167,21 +193,19 @@
                 <img src="images/Rectangle 15.png" alt="">
                 <h5>Word Games</h5>
             </div>
-         </section>
-         <section class="apps-container2 flex">
-            <div class="apps-content2 flex">
+            <div class="apps-content flex">
                 <img src="images/Rectangle 16.png" alt="">
                 <h5>Role Playing Games</h5>
             </div>
-            <div class="apps-content2 flex">
+            <div class="apps-content flex">
                 <img src="images/Rectangle 17.png" alt="">
                 <h5>Music & Audio Games</h5>
             </div>
-            <div class="apps-content2 flex">
+            <div class="apps-content flex">
                 <img src="images/Rectangle 16.png" alt="">
                 <h5>Puzzle Games</h5>
             </div>
-            <div class="apps-content2 flex">
+            <div class="apps-content flex">
                 <img src="images/Rectangle 18.png" alt="">
                 <h5>Strategy Games</h5>
             </div>
@@ -202,7 +226,7 @@
                 <h5>Support</h5>
                 <h5>My Account</h5>
             </div>
-            <div class="footer-icon">
+            <div class="footer-icon social-icon">
                 <a href=""><img src="images/x.png" alt=""></a>
                 <a href=""><img src="images/fb.png" alt=""></a>
                 <a href=""><img src="images/youtube.png" alt=""></a>
